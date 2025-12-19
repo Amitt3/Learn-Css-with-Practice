@@ -1,0 +1,58 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+/* Q.1  practice set  */
+#box {
+ background-color:blue;
+}
+
+ /* Q.2 practice set */
+
+ .heading {
+    color: red;
+ }  
+
+    /* Q.3 practice set -->   */
+
+     button { 
+        color: green;
+    }
+
+    #hi {
+      text-align: center;
+      font-family:'Times New Roman';
+      font-size: 50px;
+      font-weight: 500;
+    }
+
+    #outer {
+      font-size: 25px;
+    }
+
+    #inner {
+      font-size: 10px;
+    }
+
+    #nav{
+      height: 60px;
+      width: 100%;
+      background-color: chocolate;
+    }
+
+    #box1 {
+      height: 100px;
+      width: 100px;
+      background-color: green;
+      border-radius: 50%;
+    }
+
+
+    
+
+
+
+
