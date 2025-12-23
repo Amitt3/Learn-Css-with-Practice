@@ -1,0 +1,127 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* body {
+    text-align: center;
+}
+div {
+    height: 100px; 
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex; */
+
+    /* flex-direction: row-reverse; */
+/* } */
+
+/* #box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: rgb(255, 230, 0);
+}
+
+#box3 {
+    background-color: rgb(0, 255, 47);
+}
+
+#box4 {
+    background-color: rgb(8, 0, 255);
+}
+
+#box5 {
+    background-color: rgb(0, 221, 255);
+} */
+
+
+
+/* #nav_Container {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+#outer  {
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner  {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 43, 43);
+    
+} */
+ body {
+   background-color: rgb(229, 234, 238);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+ }
+
+#login_Page {
+    /* height: 400px; */
+    width: 300px;
+    background-color: rgb(252, 255, 255);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(62, 62, 156);
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+label {
+    font-weight: 500;
+    
+}
+
+input {
+     width: 100%;
+     padding: 5px;
+}
+
+#hlo{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    text-align: center;
+    width: 45%;
+    height: 20px;
+}
+ a{
+    padding-left: 77px;
+ }
+
+
+
+
+
+
+
