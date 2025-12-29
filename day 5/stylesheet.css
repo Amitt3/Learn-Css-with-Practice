@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #box1 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+
+}
+
+@media(min-width:200px) and (max-width:400px) {
+    #box1 {
+        background-color: red;
+    }
+} */
+
+   /* //////////////  practice set   ////////////////  */
+
+#hlo_media{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(234, 255, 0);
+}
+
+@media (max-width :300px){
+
+    #hlo_media {
+        background-color: green;
+    }
+
+}
+
+@media (min-width : 300px) and (max-width : 400px){
+
+    #hlo_media{
+        background-color: rgb(238, 79, 156);
+    }
+
+}
+
+@media (min-width:400px) and (max-width :600px){
+
+    #hlo_media{
+        background-color: rgb(241, 10, 10);
+    }
+
+}
+
+@media (min-width:600px){
+
+    #hlo_media {
+        background-color: rgb(26, 48, 214);
+    }
+
+}
+
+/*  //////////////  Transition  //////////////  */
+
+#box {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+
+    transition: all 2s ease-in 1s;
+    transform: rotate(45deg);
+
+}
+
+#box:hover {
+    background-color: red;
+    font-size: 30px;
+    color: white;
+}
+
+#box:active {
+    background-color: rgb(43, 255, 0);
+    font-size: 80px;
+    color: white;
+}
+
+ /*            transform           */
+
+ /* #box {
+    transform: rotate(45deg);
+ } */
+
+
+
